@@ -40,11 +40,6 @@ body{
     padding: 5px;
 }
 
-/* #menu{
-    /* padding:80px ; */
-    /* min-height:765px; */
-/* } */ 
-
 #btBas{
     position:fixed;
     bottom:70px;
@@ -94,9 +89,4 @@ hr:after {
         width:100%;
     }
     
-    /* #container{
-        text-align: center;
-    } */
-    
-
 }
