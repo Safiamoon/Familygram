@@ -31,6 +31,12 @@ body{
     padding-bottom:20px;
     margin-bottom:70px;
 }
+#container-opacity{
+    min-height: 100%;
+    padding-bottom:20px;
+    margin-bottom:70px;
+    opacity:0.7;
+}
 
 #container-accueil{
     height: 200%;
@@ -51,7 +57,7 @@ body{
     padding: 0;
     height:70px;
 }
-hr {
+.ligne {
     border: none;
     border-top: 3px double #333;
     color: #333;
@@ -60,7 +66,7 @@ hr {
     height: 5px;
 }
 
-hr:after {
+.ligne:after {
     background: #fff;
     content: 'OU';
     padding: 0 4px;
@@ -75,12 +81,28 @@ hr:after {
         z-index: 3;
 }
 
+.fa-sort-up{
+    float: right;
+    margin-right: 6px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 3;
+}
+
+.fa-sort-down{
+    float: right;
+    margin-right: 6px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 3;
+}
+
+
 #profil{
     border-radius: 50%;
     width: 70px;
     height: 70px;
 }
-
 
 /* tablettes et mobiles */
 @media only screen and (max-width:1100px){
